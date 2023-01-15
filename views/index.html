@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Forms</title>
+</head>
+
+<body>
+    <header>
+        <h3>Dione Dev</h3>
+        <ul>
+            <li>
+                <a href="/">JSON</a>
+                <a href="/encoded">urlEncoded</a>
+            </li>
+        </ul>
+    </header>
+    <div class="container">
+        <form id="form-user" action="/api/user", method="POST">
+            <h3>Form handle data as JSON</h3>
+            <input name="user" type="text" placeholder="Input your name here..." required />
+            <input name="password" type="password" placeholder="Input your password here..." required />
+            <button>Send</button>
+        </form>
+
+
+    </div>
+    <!--container-->
+    <script src="./scripts/form.js"></script>
+</body>
+
+</html>
