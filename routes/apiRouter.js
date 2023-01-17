@@ -4,6 +4,7 @@ const apiController = require("../controllers/apiController");
 
 
 Router.post("/user", express.json(), apiController.checkUser);
+Router.post("/user-encoded", express.urlencoded({ extended: true }), apiController.checkUserEncoded);
 
 
 

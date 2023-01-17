@@ -24,6 +24,17 @@ function playForm() {
             body:formStringfied
         }
 
-        fetch(URL,options).then(res => res.json()).then(obj => console.log(obj));
+        fetch(URL,options).then(res => res.json()).then(obj => information(obj));
     })
+}
+function information(obj){
+    let msg = "";
+    obj.error? msg = obj.message : msg = `Redirect to ${obj.user}`;                   
+    const title = document.getElementById("title");
+    title.classList.remove("show");
+    title.classList.add("hide");
+
+    title.innerHTML = msg;    
+    title.classList.remove("hide");
+    title.classList.add("show");
 }

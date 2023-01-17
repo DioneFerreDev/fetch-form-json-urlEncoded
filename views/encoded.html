@@ -18,13 +18,14 @@
         </ul>
     </header>
     <div class="container">
-        <form>
+        <form id="form-user-encoded" action="/api/user-encoded" method="post" enctype="application/x-www-form-urlencoded">
+            <h3 id="title" class="hide">teste</h3>
             <h3>Form handle data as urlencoded</h3>
-            <input type="text" placeholder="Input your name here..." required/>
-            <input type="password" placeholder="Input your password here..." required/>
+            <input id="user" type="text" placeholder="Input your name here..." required/>
+            <input id="password" type="password" placeholder="Input your password here..." required/>
             <button>Send</button>
         </form>
     </div>
-    <script src="./scripts/form.js"></script>
+    <script src="./scripts/formEncoded.js"></script>
 </body>
 </html>

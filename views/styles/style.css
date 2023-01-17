@@ -34,6 +34,12 @@ form h3{
     font-weight: bold;
     padding:10px;
 }
+#title{
+    color: #509104 !important;
+    transition: all 1s;
+}
+.hide{opacity: 0;}
+.show{opacity: 1;}
 form{
     width: 100%;
     max-width: 600px;
