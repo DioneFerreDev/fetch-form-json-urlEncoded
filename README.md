@@ -1,3 +1,6 @@
+
+<img width="100%" src="https://user-images.githubusercontent.com/121989183/213332128-62477db5-d48a-4bc9-b977-3ed1bde978f4.png"/>
+
 <h3>Description</h3>
 <p>Performing a fetch in a form by using json method and urlencoded method towards an api.</p>
 <h3>Tecnologies used</h3>
