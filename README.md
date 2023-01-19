@@ -1,2 +1,24 @@
-# fetch-form-json-urlEncoded
-Performing a fetch in a form by using json method and urlencoded method towards an api.
+<h3>Description</h3>
+<p>Performing a fetch in a form by using json method and urlencoded method towards an api.</p>
+<h3>Tecnologies used</h3>
+<ul>
+  <li>html</li>
+  <li>css</li>
+  <li>javascript</li>
+  <li>nodejs</li>
+  <li>bcrypt</li>
+</ul>
+<h3>Functionalities</h3>
+<ul>
+  <li>Use of fetch</li>
+  <li>Configuration of an api for the both methods, json and urlencoded</li>
+  <li>MVC</li>
+  <li>Routes</li>
+  <li>data encryption</li>
+</ul>
+<h3>Usage</h3>
+<p>use of the form according to the form json or form urlencoded option.
+Filling in the field of user with the value of "My User" and the password with the value of "user999".
+If correct it will return a positive message, if wrong an error message.
+</p>
+
